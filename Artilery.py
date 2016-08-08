@@ -83,7 +83,7 @@ def main(): #main function
 	try:
 		calculations()
 	except:
-		print('\nYou fucked up somewhere\n')
+		print('\nSomething Went Wrong\n')
 		out = repeat()
 		if out == 'y':
 			try:
